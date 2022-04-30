@@ -8,6 +8,7 @@ function check_token(token) {
     var req = new XMLHttpRequest();
     req.open("GET", "https://discord.com/api/v9/users/@me/library", false);
     req.setRequestHeader("Authorization", token);
+    req.setRequestHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36");
     req.send(null);
     var status_code = req.status;
     if (status_code === 401) {
