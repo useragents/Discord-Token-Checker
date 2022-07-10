@@ -2,7 +2,9 @@
 <div align="center">
   
   # Discord Token Checker
-  
+<h1>
+🌟 Join my Discord server <a href="https://discord.gg/x6UX9qufVR">here</a> 🌟
+</h1>
   Loops through a list of Discord tokens in a file to check if they are valid/invalid. Click <a href="https://github.com/useragents/Discord-Token-Checker/issues">here</a> to report bugs.
   
   ![image](https://user-images.githubusercontent.com/103281345/165838182-ea2b222e-5743-43d9-a30d-57997e248433.png)
